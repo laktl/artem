@@ -1,0 +1,448 @@
+body {
+  font-family: 'Gerbera', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1B1C21;
+  color: #FFFFF8;
+}
+
+.main-wrapper {
+  width: auto; /* Задаем ширину макета */
+  height: auto;
+  padding-bottom: 48px;
+  padding-left: 360px;
+  padding-right: 360px;
+  background: #1B1C21;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 80px;
+  display: inline-flex;
+}
+
+header {
+  align-self: stretch;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+}
+
+header .header-left {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+
+header .header-left img {
+  width: 48px;
+  height: 48px;
+  border-radius: 9999px;
+}
+
+header .header-left div {
+  text-align: right;
+  color: #FFFFF8;
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+
+header .contact-button {
+  width: 188px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #313237;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+header .contact-button div {
+  text-align: right;
+  color: #FFFFF8;
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+
+.developer-name {
+  align-self: stretch;
+  color: #FFFFF8;
+  font-size: 106px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 95.40px;
+  word-wrap: break-word;
+  margin-top: 80px; /* Возвращаем отступ сверху */
+}
+
+section {
+  align-self: stretch;
+  margin-bottom: 80px; /* Возвращаем отступ снизу */
+}
+
+section .section-title {
+  width: 389px;
+  color: #FFFFF8;
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+
+section .section-content {
+  flex: 1 1 0;
+  color: #FFFFF8;
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+
+section .skills-container {
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+}
+
+.skills-container .skills-group {
+  width: 794.67px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+}
+
+.skills-group .skills-title {
+  flex: 1 1 0;
+  color: #FFFFF8;
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+
+.skills-group .skills-list {
+  flex: 1 1 0;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.skills-list div {
+  align-self: stretch;
+  color: #FFFFF8;
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+
+.education-details {
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+}
+
+.education-details .education-item {
+  align-self: stretch;
+  height: 83px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: flex;
+}
+
+.education-item .education-label {
+  align-self: stretch;
+  color: rgba(255, 255, 248, 0.50);
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+
+.education-item .education-value {
+  color: #FFFFF8;
+  font-size: 48px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 57.60px;
+  word-wrap: break-word;
+}
+
+/* Стили для формы */
+.contact-form-container {
+  width: 795px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+}
+
+.contact-form-container .input-group {
+  align-self: stretch;
+  height: 218px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: flex;
+}
+
+.input-group .input-row {
+  align-self: stretch;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.input-row .input-wrapper {
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: inline-flex;
+   position: relative; /* Добавлено для позиционирования label */
+}
+
+.input-wrapper .input-field {
+  align-self: stretch;
+  height: 48px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+  border: 1px rgba(255, 255, 248, 0.20) solid;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+  color: #FFFFF8;
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 20.80px;
+  word-wrap: break-word;
+  background-color: transparent;
+  box-sizing: border-box; /* Добавлено */
+}
+
+.input-wrapper .input-label {
+  padding-left: 4px;
+  padding-right: 4px;
+  left: 12px;
+  top: -8px;
+  position: absolute;
+  background: #1B1C21;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  color: rgba(255, 255, 248, 0.50);
+  font-size: 12px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 15.60px;
+  word-wrap: break-word;
+}
+
+.input-group .message-row {
+  align-self: stretch;
+  height: 144px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2px;
+  display: flex;
+   position: relative; /* Добавлено для позиционирования label */
+}
+
+.message-row .message-field {
+  align-self: stretch;
+  flex: 1 1 0;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+  border: 1px rgba(255, 255, 248, 0.20) solid;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+  color: rgba(255, 255, 248, 0.50);
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 20.80px;
+  word-wrap: break-word;
+  background-color: transparent;
+  resize: none;
+   box-sizing: border-box; /* Добавлено */
+}
+
+.contact-form-container button {
+  align-self: stretch;
+  height: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #3E885B;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  border: none;
+  cursor: pointer;
+  color: #FFFFF8;
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+
+footer {
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  text-align: center;
+  color: #FFFFF8;
+  font-size: 16px;
+  font-family: Gerbera;
+  font-weight: 400;
+  text-decoration: underline;
+  line-height: 20.80px;
+  word-wrap: break-word;
+}
+
+footer div a {
+  color: #FFFFF8;
+  text-decoration: underline;
+  margin: 0 10px;
+}
+
+.about-section {
+  align-self: stretch;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+}
+/* Общие стили для формы */
+.contact-form-container {
+  width: 795px; /* Ширина контейнера формы */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Стили для обертки группы полей (Имя, 123, Телеграм) */
+.input-group {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+
+input[type="text"],
+textarea {
+  color: #FFFFF8; /* Цвет текста */
+  background-color: transparent; /* Прозрачный фон */
+  border: 1px solid rgba(255, 255, 248, 0.20); /* Рамка */
+  border-radius: 4px; /* Радиус скругления рамки */
+  padding-left: 16px; /* Отступ слева */
+  padding-right: 16px; /* Отступ справа */
+  padding-top: 13px; /* Отступ сверху */
+  padding-bottom: 14px; /* Отступ снизу */
+  font-size: 16px; /* Размер шрифта */
+  font-family: Gerbera, sans-serif; /* Семейство шрифтов */
+  line-height: 20.80px; /* Высота строки */
+  box-sizing: border-box; /* Чтобы padding не увеличивал размер элемента */
+  width: 100%; /* Занимает всю доступную ширину */
+}
+
+/* Стили для placeholder текста */
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 248, 0.50); /* Цвет placeholder текста */
+  font-size: 16px;
+  font-family: Gerbera, sans-serif;
+  line-height: 20.80px;
+}
+
+/* Стили для textarea (поле сообщения) */
+textarea {
+  resize: none; /* Запрещаем изменение размера textarea */
+  height: 144px; /* Фиксированная высота textarea */
+}
+
+/* Стили для кнопки "Связаться со мной" */
+button {
+  align-self: stretch;
+  height: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #3E885B;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  border: none;
+  cursor: pointer;
+  color: #FFFFF8;
+  font-size: 16px;
+  font-family: Gerbera, sans-serif;
+  line-height: 20.80px;
+  text-align: right;
+}
+
+/* Стили для красного label внутри поля "123" */
+.input-group div:nth-child(2) div div {
+  padding-left: 4px;
+  padding-right: 4px;
+  left: 12px;
+  top: -8px;
+  position: absolute;
+  background: #1B1C21;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.input-group div:nth-child(2) div div div {
+  color: #FF312E;
+  font-size: 12px;
+  font-family: Gerbera;
+  font-weight: 400;
+  line-height: 15.60px;
+  word-wrap: break-word;
+}

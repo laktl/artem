@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Иванов Иван - Front-end разработчик</title>
+    <meta name="description" content="Личная страница front-end разработчика Ивана Иванова. Контакты, навыки, образование.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gerbera:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="style.css">
+    
+
+</head>
+<body>
+<script src="js.js"></script>
+<div class="main-wrapper">
+    <header>
+        <div class="header-left">
+            <img src="https://placehold.co/48x48" alt="Аватар">
+            <div>О себе</div>
+            <div>Навыки</div>
+            <div>Образование</div>
+            <div>Контакты</div>
+        </div>
+        <div class="contact-button">
+            <div>Связаться со мной</div>
+        </div>
+    </header>
+
+    <div class="developer-name">Иванов Иван, 21 год. Начинающий Front-end разработчик из Сыктывкара.</div>
+
+    <section class="about-section">
+        <div class="section-title">О себе</div>
+        <div class="section-content">
+            Меня зовут Иван, мне 21 год. Я учусь в университете и обожаю кодить. Я работаю над проектами, чтобы сделать вашу жизнь проще, и люблю решать проблемы, которые возникают у людей. Пишу чистый код, умею рефакторить чужой. Оптимизирую всё и вся, иногда просирая сроки из-за этого.
+        </div>
+        <div class="section-content">
+            Начиная со второго курса стажируюсь в Utair? на позиции front-end разработчика. Помогаю делать платформу для работы с обратной связью от пассажиров.<br/>В свободное время играю в хоккей и дартс. Люблю смотреть фильмы Нолана, Финча и Миядзаки. Апал глобала в контре и титана в доте, добился успеха крч.
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title">Навыки</div>
+        <div class="skills-container">
+            <div class="skills-group">
+                <div class="skills-title">Технические</div>
+                <div class="skills-list">
+                    <div>HTML5</div>
+                    <div>CSS3</div>
+                    <div>JavaScript</div>
+                    <div>Vue.js, React, Angular</div>
+                    <div>JQuery</div>
+                    <div>Git</div>
+                    <div>gulp</div>
+                    <div>sass</div>
+                </div>
+            </div>
+            <div class="skills-group">
+                <div class="skills-title">Софтовые</div>
+                <div class="skills-list">
+                    <div>Ведение проектов</div>
+                    <div>Написание ТЗ</div>
+                    <div>Рефакторинг чужого кода</div>
+                    <div>Английский B2</div>
+                    <div>Китайский Вацаонима</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title">Остались вопросы?</div>
+        <div class="contact-form-container">
+            <form id="contactForm">
+            <div class="input-group">
+                <div class="input-row">
+                    <div class="input-wrapper">
+                        <input type="text" name="name" class="input-field" placeholder="Имя">
+                        <div class="input-label">Имя</div>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="text"  name="telegram_username" class="input-field" placeholder="Telegram">
+                        <div class="input-label">Telegram</div>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="text" name="telegram_link" class="input-field" placeholder="https://t.me/Poipo|">
+                        <div class="input-label">Телеграм</div>
+                    </div>
+                </div>
+                <div class="message-row">
+                    <textarea name="message" class="message-field" placeholder="Сообщение"></textarea>
+                </div>
+            </div>
+            <button type="submit">Связаться со мной</button>
+           </form>
+        </div>
+    </section>
+
+    <footer>
+        <div>Telegram</div>
+        <div>Вконтакте</div>
+        <div>Github</div>
+        <div>Discord</div>
+        <div>Email</div>
+    </footer>
+</div>
+
+</body>
+</html>
